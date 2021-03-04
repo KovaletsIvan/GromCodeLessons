@@ -8,6 +8,9 @@ img[src$=".jpg"] {
 
 li[data-description~="even"] {
     background-color: gray;
+    
+}
+li[data-description*="even"]{
     font-size: 24px;
 }
 

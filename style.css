@@ -46,6 +46,7 @@ div {
     left: 50px;
 }
 .absolute-parent{
+    position: absolute;
     right: 20px;
     left:50px;
 }

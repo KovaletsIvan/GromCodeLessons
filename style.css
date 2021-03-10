@@ -1,79 +1,31 @@
-* {
-    box-sizing: border-box;
-    margin:0;
-}
+  html {
+      font-size: 24px;
+  }
 
-.header {
-    box-sizing: content-box;
-    background-color: darkturquoise;
-    height: 40px;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
+  div {
+      margin: 16px;
+      border: 1px solid burlywood;
+  }
 
-.navigation {
-    height: 40px;
-}
+  .horizontal>span {
+      background-color: aqua;
+  }
 
-.nav-item {
-    display: inline;
-    color: white;
-    margin-left: 16px;
-    line-height: 2.5;
-    list-style: none;
-    float: left;
-}
+  .vertical>span {
+      background-color: coral;
+  }
 
-.content {
-    background-color: beige;
-    height: 5000px;
-}
+  .horizontal {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
 
-.head {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
-    left: calc(50% - 100px);
-    top: calc(50% - 100px);
-}
-
-.ear {
-    width: 40px;
-    height: 60px;
-    background-color: brown;
-}
-
-.ear_right {
-    position: relative;
-    float: right;
-    right: -40px;
-    top: -60px;
-}
-
-.ear_left {
-    position: relative;
-    float: left;
-    right: 40px;
-    top: -60px;
-}
-
-.eye {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: grey;
-    top: 80px;
-}
-
-.eye_left {
-    float: left;
-
-}
-
-.eye_right {
-    float: right;
-
-}
+  .vertical {
+      flex-direction: column;  
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around
+  }

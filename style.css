@@ -1,24 +1,28 @@
-    *{
+    * {
         box-sizing: border-box;
     }
-    .header{
-        height: 50px;
+
+    div {
+        height: 200px;
+        width: 20%;
+        float: left;
+    }
+
+    .block_red {
+        background-color: red;
+    }
+
+    .block_green {
+        background-color: green;
+    }
+
+    .block_blue {
+        background-color: blue;
+    }
+
+    .block_yellow {
         background-color: yellow;
     }
-     .footer{
-         height: 50px;
-         background-color:green;
-         clear: both;
-     }
-     .content{
-         width: 80%;
-         float: left;
-         background-color: pink;
-         height: 500px;
-     }
-     .sidebar{
-         width: 20%;
-         float: left;
-         background-color: grey;
-         height: 500px;
-     }
+    .block_black {
+         background-color: black;
+    }

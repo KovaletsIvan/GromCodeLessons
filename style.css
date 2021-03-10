@@ -1,28 +1,18 @@
-body {
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
     display: flex;
+    justify-content: center;
 }
-
-.block {
-    flex-grow: 1;
-    height: 300px;
+.article{
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    min-width: 300px;
 }
-
-.block_red {
-    background-color: red;
-}
-
-.block_green {
-    background-color: green;
-}
-
-.block_blue {
-    background-color: blue;
-}
-
-.block_yellow {
-    background-color: yellow;
-}
-
-.block_black {
-    background-color: black;
+.article-list{
+    display: flex;
 }

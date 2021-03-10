@@ -1,28 +1,69 @@
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-    div {
-        height: 200px;
-        width: 20%;
-        float: left;
-    }
+.header {
+    background-color: darkturquoise;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
 
-    .block_red {
-        background-color: red;
-    }
+.navigation {
+    height: 40px;
 
-    .block_green {
-        background-color: green;
-    }
+}
 
-    .block_blue {
-        background-color: blue;
-    }
-
-    .block_yellow {
-        background-color: yellow;
-    }
-    .block_black {
-         background-color: black;
-    }
+li {
+    display: inline-block;
+    color: white;
+    margin-left: 16px;
+    line-height:2;
+}
+.content{
+    background-color: beige;
+    height: 5000px;
+}
+.head{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    left:calc(50% - 100px) ;
+    top: calc(50% - 100px);
+}
+.ear{
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+}
+.ear_right{
+position: relative;
+float: right;
+right: -40px;
+top: -60px;
+}
+.ear_left {
+    position: relative;
+    float: left;
+    right: 40px;
+    top: -60px;
+}
+.eye{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    top: 80px;
+}
+.eye_left{
+    float: left;
+    
+}
+.eye_right{
+    float: right;
+   
+}

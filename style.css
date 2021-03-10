@@ -15,11 +15,10 @@
     height: 40px;
 }
 
-
 li {
     display: inline-block;
     color: white;
-    margin-left:16px;
+    margin-left: 16px;
     line-height: 2.5;
     list-style: none;
 }

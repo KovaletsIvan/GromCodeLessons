@@ -1,57 +1,32 @@
-div {
-    padding: 16px;
-}
+    *{
+        box-sizing: border-box;
+    }
+    .square {
+        width: 100px;
+        height: 100px;
+    }
 
-.child,
-.parent {
-    border: 2px solid black;
-}
+    section {
+        background: aquamarine;
+        padding: 16px;
+    }
 
-.child {
-    position: absolute;
-    top: 90px;
-    right: 40px;
-}
-
-.parent {
-    width: 300px;
-    height: 100px;
-    background-color: yellowgreen;
-}
-
-.child {
-    background: yellow;
-    position: absolute;
-}
-
-.tip {
-    opacity: 1;
-    background-color: whitesmoke;
-    padding: 0 8px;
-}
-
-.green {
-    width: 100px;
-    height: 100px;
-    background: green;
-    float: left;
-}
-
-.container {
-    height: 2000px;
-}
-.relative-parent{
-    position: relative;
-    top: 20px;
-    left: 50px;
-}
-.absolute-parent{
-    position: absolute;
-    right: 20px;
-    left:50px;
-}
-.fixed-parent{
-    position: fixed;
-    bottom: 20px;
-    left: 30px;
-}
+    footer {
+        height: 30px;
+        border: 2px solid black;
+    }
+    .container{
+        width: 50%;
+        float: left;
+    }
+    .red{
+        background-color: red;
+        float: left;
+    }
+    .green{
+        background-color: green;
+        float: right;
+    }
+    .footer{
+        clear: both;
+    }

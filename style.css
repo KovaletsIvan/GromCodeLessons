@@ -1,21 +1,21 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
 
-.article{
+.article {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    width: 300px;  
+    width: 300px;
     flex-grow: 1;
-    
 }
-.articles-list{
+
+.articles-list {
     display: flex;
     flex-wrap: wrap;
 }

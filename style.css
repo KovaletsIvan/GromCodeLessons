@@ -13,16 +13,18 @@
 
 .navigation {
     height: 40px;
-
 }
-
+ul{
+    
+}
 
 li {
     display: inline-block;
     color: white;
-    margin-left: 16px;
+    margin-left:px;
     line-height: 2.5;
-    text-decoration: none;
+    margin-left: 16px;
+    list-style: none;
 }
 
 .content {

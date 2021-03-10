@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
     
 }
 .header{
@@ -15,11 +16,12 @@
 }
 .navigation{
     margin:0;
+    padding: 0;
     display: flex;
     list-style-type: none;
 }
 .navigation_item{
-    margin-right: 10px;
+    margin-left: 16px;
 }
 .footer_text{
     margin: auto;
@@ -43,5 +45,21 @@
 }
 .news{
     width: 200px;
-    background-color: gray;
+    background-color: gray;  
+}
+.news_list{
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.list_item{
+    margin: 0;
+    padding: 0;
+}
+.news_item{
+    list-style-type: none;
+    margin-left: 16px;
+    line-height: 40px;
+
 }

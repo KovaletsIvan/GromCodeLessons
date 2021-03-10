@@ -14,6 +14,7 @@ header{
     width: 300px;
     flex-shrink: 0;
     flex-grow: 1;
+    height: 100vh;
 }
 .articles-list{
     display: flex;

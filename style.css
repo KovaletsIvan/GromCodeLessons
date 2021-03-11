@@ -7,7 +7,7 @@ header {
   justify-content: center;
 }
 p {
-  padding: 0;
+  margin: 0;
 }
 .article {
   margin: 8px;

@@ -6,9 +6,7 @@ header {
   display: flex;
   justify-content: center;
 }
-p {
-  margin: 0;
-}
+
 .article {
   margin: 8px;
   padding: 16px;

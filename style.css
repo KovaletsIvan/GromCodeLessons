@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .menu-button {
   display: inline-block;
@@ -15,7 +17,6 @@
 }
 .dropdown {
   margin: 16px;
-  position: relative;
 }
 .menu-list {
   position: absolute;

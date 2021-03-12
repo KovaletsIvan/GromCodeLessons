@@ -17,10 +17,10 @@
 }
 .text-main {
   margin: 0;
-  bottom: -40px;
 }
 .tooltip-text {
   margin: 0;
+  bottom: -40px;
 }
 .text:hover .tooltip {
   display: block;

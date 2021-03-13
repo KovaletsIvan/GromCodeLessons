@@ -1,24 +1,16 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Verdana, sans-serif;
+.list {
+  list-style-type: none;
+  font-size: 1.5em;
 }
-
-h1 {
-  font-size: 74px;
-  width: 50vw;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  text-align: center;
-  margin: auto;
+.third {
+  text-decoration: underline green;
 }
-div {
-  height: 200px;
-  background-color: coral;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 200px;
+.second {
+  text-decoration: line-through;
+}
+.first {
+  text-decoration: overline;
 }

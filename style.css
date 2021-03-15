@@ -3,6 +3,7 @@
 }
 .form {
   margin: 32px;
+  display: inline-block;
 }
 input,
 textarea,

@@ -15,3 +15,6 @@ button {
 .radio {
   display: inline-block;
 }
+input[type="color"] {
+  box-sizing: content-box;
+}

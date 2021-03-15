@@ -12,7 +12,6 @@ button {
   margin: 8px;
   display: block;
 }
-.radio-holder > .radio {
+.radio {
   display: inline-block;
-  margin: 8px 0px 8px 8px;
 }

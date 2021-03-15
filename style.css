@@ -13,4 +13,5 @@ span {
 input[type="radio"] {
   display: inline;
   margin-left: 0;
+  margin-right: 0;
 }

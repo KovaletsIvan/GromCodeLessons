@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 .form {
   margin: 32px;
   display: inline-block;
@@ -14,7 +11,4 @@ button {
 }
 .radio {
   display: inline-block;
-}
-input[type="color"] {
-  box-sizing: content-box;
 }

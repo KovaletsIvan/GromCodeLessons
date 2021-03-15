@@ -9,6 +9,6 @@ button {
   margin: 8px;
   display: block;
 }
-.radio {
+input[type="radio"] {
   display: inline-block;
 }

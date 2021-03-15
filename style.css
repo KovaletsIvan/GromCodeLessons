@@ -9,7 +9,7 @@ input,
 textarea,
 select,
 button {
-  margin: 8px;
+  margin-bottom: 8px;
   display: block;
 }
 .radio {

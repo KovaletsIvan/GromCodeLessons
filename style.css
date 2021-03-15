@@ -42,3 +42,6 @@
   color: white;
   border-radius: 4px;
 }
+input:required {
+  border: 3px solid #ff0000;
+}

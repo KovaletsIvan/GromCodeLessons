@@ -1,10 +1,19 @@
 * {
   box-sizing: border-box;
 }
+div {
+  overflow-x: auto;
+}
 table {
   width: 500px;
   margin: 16px;
   text-align: right;
+}
+caption {
+  margin-bottom: 8px;
+}
+thead {
+  background-color: aqua;
 }
 table,
 td,
@@ -12,4 +21,15 @@ th {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 4px;
+  height: 40px;
+}
+tbody > tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tbody > tr:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+footer {
+  font-weight: 700;
 }

@@ -2,11 +2,7 @@
   margin: 32px;
   display: inline-block;
 }
-input,
-textarea,
-select,
-button,
-span {
+div {
   margin: 8px;
   display: block;
 }

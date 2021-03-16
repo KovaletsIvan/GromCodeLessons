@@ -30,6 +30,6 @@ tbody > tr:hover {
   background-color: #aaa;
   color: #fff;
 }
-footer {
+tfoot {
   font-weight: 700;
 }
